@@ -1,4 +1,46 @@
 export const projectsData = [
+     {
+        projectName: 'Mini Excel',
+        projectDescription:
+            `This application is build using HTML, CSS, JavaScript and includes some
+            important and basic features like
+            Good and Well Defined UI.
+            2-Way Binding of Toolbar with each and every cell separately.
+            Basic Toolbar Items/Features like Copy, Cut, Paste, Font-Family, Font-Size,
+            Bold, Italic, Underline, Right Align, Left Align, Center Align, Text Color, Cell Color,
+            Save or Download Sheet, Multi Sheet feature.
+            Cycle Detection Using DFS Algo with color visualization to track the cyclic pat`,
+        imageUrl: './assets/excep.png',
+        videoUrl:
+            'https://github.com/Priyanka-Sati/Mini-Excel',
+        projectUrl: 'https://priyanka-sati.github.io/Mini-Excel/',
+    },
+    {
+        projectName: 'Openboard',
+        projectDescription:
+            `Openboard is an open source cross-platform teaching application for
+            interactive whiteboard designed primarily for use in schools and universities.
+            This application is build using HTML, CSS, JavaScript, Canvas API (For 2d
+            graphical drawing), Socket.IO (For realtime drawing), Express (server).
+            This application includes some basic features like Draw (we can draw 2d
+            graphical design), Erase (we can erase the drawing we made), Undo/Redo,
+            Sticky Notes (we can keep sticky notes for us while teaching), Download board`,
+        imageUrl: './assets/openboard.png',
+        videoUrl:
+            'https://github.com/Priyanka-Sati/Open_Board',
+        projectUrl: 'https://my--whiteboard.herokuapp.com/',
+    },
+    
+    {
+        projectName: 'Sorting Visualizer',
+        projectDescription:
+            'Sometime people feel it really difficult to visualize the sorting techniques. Here I present you a simple sorting visualizer application developed using JavaScript, HTML, CSS',
+        imageUrl: './assets/proj4.png',
+        videoUrl:
+            'https://github.com/Priyanka-Sati/Sorting-Visualizer',
+        projectUrl: 'https://priyanka-sati.github.io/Sorting-Visualizer/',
+    },
+
     {
         projectName: 'Name It!',
         projectDescription:
@@ -16,16 +58,6 @@ export const projectsData = [
         videoUrl:
             'https://github.com/Priyanka-Sati/InSpeed',
         projectUrl: 'https://priyanka-sati.github.io/InSpeed/',
-    },
-    
-    {
-        projectName: 'Sorting Visualizer',
-        projectDescription:
-            'Sometime people feel it really difficult to visualize the sorting techniques. Here I present you a simple sorting visualizer application developed using JavaScript, HTML, CSS',
-        imageUrl: './assets/proj4.png',
-        videoUrl:
-            'https://github.com/Priyanka-Sati/Sorting-Visualizer',
-        projectUrl: 'https://github.com/Priyanka-Sati/Sorting-Visualizer',
     },
 
     {
