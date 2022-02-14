@@ -28,4 +28,8 @@ export const skillList = [
         skillName: 'MySql',
         skillUrl: './assets/mysql.png',
     },
+    {
+        skillName: 'Firebase',
+        skillUrl: './assets/firebase.png',
+    },
 ];
