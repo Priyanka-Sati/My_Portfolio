@@ -1,5 +1,26 @@
 export const projectsData = [
-     {
+
+    {
+        projectName: 'Resume Builder',
+        projectDescription:
+            'This project allows user to easily maintain and build their resume. I build this project using React, JavaScript, CSS, HTML. From this project I learn how to implement Redux, hooks, and routing to different pages. I have use firebase for authentications and storing user information.',
+        imageUrl: './assets/resumebuilder.phg',
+        videoUrl:
+            'https://github.com/Priyanka-Sati/Resume_Builder',
+        projectUrl: 'https://resume-builder-5bc10.web.app/',
+    },
+    {
+        projectName: 'PlayHouse',
+        projectDescription:
+            'playHouse is a web app which gives the informations of different movies. It is build using HTML, CSS, JavaScript, React.In this project I have fetched the movies data from api (TMDB) using axios(JavaScript library used to make HTTP requests). Display posters of movies attractive Ui I have also applied user Authentication from Firebase. Used Routing from moving to second page. On second page there is an option to play trailer (used react-youtube and movie-trailer for playing trailer).',
+        imageUrl: './assets/playhouse.png',
+        videoUrl:
+            'https://github.com/Priyanka-Sati/moviesapp',
+        projectUrl: 'https://netflix-clone-e5ee0.firebaseapp.com/',
+    },
+    
+
+    {
         projectName: 'Mini Excel',
         projectDescription:
             `This application is build using HTML, CSS, JavaScript and includes some
@@ -10,7 +31,7 @@ export const projectsData = [
             Bold, Italic, Underline, Right Align, Left Align, Center Align, Text Color, Cell Color,
             Save or Download Sheet, Multi Sheet feature.
             Cycle Detection Using DFS Algo with color visualization to track the cyclic pat`,
-        imageUrl: './assets/excep.png',
+        imageUrl: './assets/excel.png',
         videoUrl:
             'https://github.com/Priyanka-Sati/Mini-Excel',
         projectUrl: 'https://priyanka-sati.github.io/Mini-Excel/',
@@ -30,7 +51,7 @@ export const projectsData = [
             'https://github.com/Priyanka-Sati/Open_Board',
         projectUrl: 'https://my--whiteboard.herokuapp.com/',
     },
-    
+
     {
         projectName: 'Sorting Visualizer',
         projectDescription:
@@ -40,25 +61,7 @@ export const projectsData = [
             'https://github.com/Priyanka-Sati/Sorting-Visualizer',
         projectUrl: 'https://priyanka-sati.github.io/Sorting-Visualizer/',
     },
-
-    {
-        projectName: 'Name It!',
-        projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
-        imageUrl: './assets/proj1.PNG',
-        videoUrl:
-            'https://github.com/Priyanka-Sati/nameit',
-        projectUrl: ' https://priyanka-sati.github.io/nameit/',
-    },
-    {
-        projectName: 'InSpeed',
-        projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
-        imageUrl: './assets/proj2.PNG',
-        videoUrl:
-            'https://github.com/Priyanka-Sati/InSpeed',
-        projectUrl: 'https://priyanka-sati.github.io/InSpeed/',
-    },
+    
 
     {
         projectName: 'Asteroid Game',
